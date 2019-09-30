@@ -291,8 +291,15 @@
 //}
 
 // D（解説後）
-int main_D();
+//int main_D();
+//
+//int main() {
+//  return main_D();
+//}
+
+// F（本戦終了後、解説前）
+int main_F();
 
 int main() {
-  return main_D();
+  return main_F();
 }
