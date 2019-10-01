@@ -297,7 +297,7 @@
 //  return main_D();
 //}
 
-// F（本戦終了後、解説前）
+// F（本戦終了後、解説後）
 int main_F();
 
 int main() {
