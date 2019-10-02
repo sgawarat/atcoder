@@ -1,5 +1,23 @@
 #include <iostream>
 
+// 本戦
+//#include <iostream>
+//#include <vector>
+//#include <algorithm>
+//
+// int main() {
+//  int A, B;
+//  std::cin >> A >> B;
+//
+//  const int N = std::min(A, B);
+//  std::vector<> tbl(N);
+//
+//  return 0;
+//}
+
+// 解説後
+#include <iostream>
+
 // 最大公約数を求める
 template <typename T>
 inline T gcd(T a, T b) noexcept {
@@ -25,7 +43,7 @@ inline T gcd(T a, T b) noexcept {
 //   - mに素因数が1つだけ含まれている場合、
 //     - それが二乗以上ならば、mはi^2以上なので、確実に処理できる
 //     - そうでなくても、そのmはsqrt(m)以下のiで割り切れないことから素数であることがわかる
-int main_D() {
+int solve_D() {
   uint64_t A, B;
   std::cin >> A >> B;
 

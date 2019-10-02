@@ -1,3 +1,4 @@
+// 解説後
 #include <algorithm>
 #include <iostream>
 #include <unordered_map>
@@ -8,7 +9,7 @@
 //
 // ループを構成する経路が複数あれば、より短い方が条件を満たす（(v1 -> v2 -> v3, v1 -> v3)の場合、条件に合わない(v1,v2,v3)を採用しない）
 // ⇒最短経路のループを探せば良い
-int main_F() {
+int solve_F() {
   int N;  // 頂点の数
   int M;  // 辺の数
   std::cin >> N >> M;
