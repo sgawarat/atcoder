@@ -1,5 +1,5 @@
-﻿
-int main()
-{
-    std::cout << "Hello World!\n";
+int solve_C();
+
+int main() {
+  return solve_C();
 }
