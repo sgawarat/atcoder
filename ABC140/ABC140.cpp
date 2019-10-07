@@ -1,5 +1,5 @@
-int solve_B();
+int solve_D();
 
 int main() {
-  return solve_B();
+  return solve_D();
 }

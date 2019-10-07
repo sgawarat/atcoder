@@ -155,6 +155,8 @@
     <ClCompile Include="A.cpp" />
     <ClCompile Include="ABC140.cpp" />
     <ClCompile Include="B.cpp" />
+    <ClCompile Include="C.cpp" />
+    <ClCompile Include="D.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
