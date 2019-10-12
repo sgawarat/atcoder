@@ -18,7 +18,3 @@ int solve_A() {
   std::cout << result;
   return 0;
 }
-
-int main() {
-  return solve_A();
-}
