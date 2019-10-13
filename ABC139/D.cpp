@@ -14,5 +14,3 @@ int solve_D() {
   std::cout << (N * (N - 1) / 2);
   return 0;
 }
-
-int main() { return solve_D(); }
