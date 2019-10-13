@@ -25,5 +25,3 @@ int solve_C() {
   std::cout << result;
   return 0;
 }
-
-int main() { return solve_C(); }
