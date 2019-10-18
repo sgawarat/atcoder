@@ -16,7 +16,3 @@ int solve_A() {
 
   return 0;
 }
-
-int main() {
-  return solve_A();
-}
