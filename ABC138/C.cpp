@@ -27,7 +27,3 @@ int solve_C() {
   std::cout << std::setprecision(20) << values.top();
   return 0;
 }
-
-int main() {
-  return solve_C();
-}
