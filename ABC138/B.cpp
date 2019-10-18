@@ -17,7 +17,3 @@ int solve_B() {
 
   return 0;
 }
-
-int main() {
-  return solve_B();
-}
