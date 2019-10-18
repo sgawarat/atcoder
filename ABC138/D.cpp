@@ -1,6 +1,5 @@
 ﻿// 解説前
 #include <iostream>
-#include <unordered_set>
 #include <vector>
 
 int solve_D() {
@@ -14,6 +13,8 @@ int solve_D() {
     graph[a - 1].push_back(b - 1);
     graph[b - 1].push_back(a - 1);
   }
+
+
 
   std::vector<uint64_t> scores(N);
   for (size_t i = 0; i < Q; ++i) {
@@ -35,8 +36,11 @@ int solve_D() {
   while (true) {
     const auto v = stack.back();
 
+    auto& children = graph[v];
     bool all_visited = true;
-    for (const auto& child : graph[v]) {
+    while (!children.empty()) {
+      const auto child = children.back();
+      children.pop_back();
       if (!visited[child]) {
         stack.push_back(child);
         visited[child] = true;
