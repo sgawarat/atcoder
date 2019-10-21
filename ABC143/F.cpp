@@ -97,5 +97,3 @@ int solve_F() {
 
   return 0;
 }
-
-int main() { return solve_F(); }
