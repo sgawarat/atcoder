@@ -153,6 +153,7 @@
   <ItemGroup>
     <ClCompile Include="A.cpp" />
     <ClCompile Include="D.cpp" />
+    <ClCompile Include="E.cpp" />
     <ClCompile Include="F.cpp" />
     <ClCompile Include="B.cpp" />
     <ClCompile Include="C.cpp" />
