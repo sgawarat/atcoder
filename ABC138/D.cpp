@@ -83,7 +83,3 @@ int solve_D() {
 
   return 0;
 }
-
-int main() {
-  return solve_D();
-}
