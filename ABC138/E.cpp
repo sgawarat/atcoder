@@ -50,7 +50,3 @@ int solve_E() {
   std::cout << result;
   return 0;
 }
-
-int main() {
-  return solve_E();
-}

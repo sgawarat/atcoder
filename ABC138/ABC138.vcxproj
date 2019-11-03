@@ -24,6 +24,7 @@
     <ClCompile Include="C.cpp" />
     <ClCompile Include="D.cpp" />
     <ClCompile Include="E.cpp" />
+    <ClCompile Include="F.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
