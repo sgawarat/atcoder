@@ -39,3 +39,12 @@ std::upper_bound(v.begin(), v.end(), 2);  // == v.begin() + 4
 std::upper_bound(v.begin(), v.end(), 5);  // == v.begin() + 5
 std::upper_bound(v.begin(), v.end(), 9);  // == v.end()
 ```
+
+### 組み合わせの列挙
+
+C++標準には順列を列挙するための関数が存在する。
+
+- `next_permutation`：配列内に辞書順で次の順列を構築する
+- `prev_permutation`：配列内に辞書順で前の順列を構築する
+
+すべての順列を列挙したい場合、配列の初期状態は降順にソート済みである必要がある。
