@@ -1,7 +1,7 @@
 ﻿// 本戦
 #include <iostream>
 
-int main() {
+int solve_A() {
   int r;
   std::cin >> r;
 

@@ -5,7 +5,7 @@
 #include <vector>
 #include <cmath>
 
-int main() {
+int solve_C() {
   size_t N;
   std::cin >> N;
 

@@ -2,7 +2,7 @@
 #include <iostream>
 #include <string>
 
-int main() {
+int solve_B() {
   int N;
   std::string S;
   std::cin >> N >> S;
