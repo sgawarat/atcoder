@@ -1,5 +1,35 @@
 # アルゴリズム
 
+## 
+
+### 二分探索
+
+数列をある条件で2つに分けることができる場合、その境界を効率的に求めることができる。
+
+- 入力：添字の範囲$[lo, hi]$
+- 出力：境界を指す添字
+- 時間計算量：$O(\log_2 (hi-lo))$
+
+```cpp
+// 条件を満たさない中で最も小さい添字$i \in [lo, hi]$を見つける
+template <typename T, typename Pred>
+T binary_search(T lo, T hi, Pred pred) {
+  while (lo < hi) {
+    const T mid = lo + (hi - lo) / 2;
+    if (pred(mid)) {
+      hi = mid;
+    } else {
+      lo = mid + 1;
+    }
+  }
+  return lo;
+}
+```
+
+#### 参考文献
+
+- https://www.topcoder.com/community/competitive-programming/tutorials/binary-search
+
 ## グラフ理論
 
 ### 深さ優先探索
